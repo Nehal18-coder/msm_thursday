@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :verybests
   resources :roles
   resources :actors
   resources :directors
