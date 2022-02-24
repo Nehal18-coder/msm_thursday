@@ -12,21 +12,17 @@
         <%= link_to_show_or_back verybest, '<i class="fas fa-search-plus"></i>'.html_safe, '<i class="fas fa-chevron-left"></i>'.html_safe, class: "btn btn-block btn-outline-secondary" %>
       </div>
 
-      <!-- Edit link verybest start -->
       <div class="col">
         <%= link_to edit_verybest_url(verybest), class: "btn btn-block btn-outline-secondary" do %>
           <i class="fas fa-edit"></i>
         <% end %>
       </div>
-      <!-- Edit link verybest end -->
 
-      <!-- Delete link verybest start -->
       <div class="col">
         <%= link_to verybest, method: :delete, data: { confirm: "Do you really want to delete this verybest?" }, class: "btn btn-block btn-outline-secondary" do %>
           <i class="fas fa-trash-alt"></i>
         <% end %>
       </div>
-      <!-- Delete link verybest end -->
     </div>
   </div>
 
