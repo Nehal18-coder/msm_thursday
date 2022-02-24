@@ -6,5 +6,4 @@ class VerybestResource < ApplicationResource
   # Direct associations
 
   # Indirect associations
-
 end

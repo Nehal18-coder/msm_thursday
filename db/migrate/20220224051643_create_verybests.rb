@@ -1,7 +1,6 @@
 class CreateVerybests < ActiveRecord::Migration[6.0]
   def change
     create_table :verybests do |t|
-
       t.timestamps
     end
   end
